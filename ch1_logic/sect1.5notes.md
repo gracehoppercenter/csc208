@@ -10,3 +10,16 @@ The set $B$ is sometimes called a **superset** of $A$.
 We say $A$ is a **proper subset** of $B$, written $A \subset B$ and $A \neq B$.
 In other words, if every element in $A$ is an element $B$, and there is at
 least on element in $B$ that is *not* in $A$.
+
+
+## Subset is a Transitive Relation
+
+For any sets $A$, $B$, and $C$, if $A \subseteq B$ and $B \subseteq C$,
+then $A \subseteq C$.
+
+
+## Injective (One-to-One) Functions
+
+A function $f : A \rightarrow B$ is **injective** (or **one-to-one**) provided
+every element in $B$ is the image of at most one element in $A$. In other words,
+no element in $B$ is the *output* of more than one *input* from $A$.
