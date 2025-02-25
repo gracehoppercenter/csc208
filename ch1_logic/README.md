@@ -16,6 +16,7 @@ it is possible for all the premises to *hold* (be true) and the conclusion not
 * [Section 1.2: Implications](sect1.2notes.md)
 * [Section 1.3: Rules of Logic](sect1.3notes.md)
 * [Section 1.4: Proofs](sect1.4notes.md)
+* [Section 1.5: Proofs about Discrete Structures](sect1.5notes.md)
 
 
 ## Section Exercises 
