@@ -96,10 +96,8 @@ integers $a$ and $b$, where $b \ne 0$, which we can assume
 [WOLOG](https://en.wikipedia.org/wiki/Without_loss_of_generality) to be reduced
 to lowest terms (this is our $Q$ ). Thus,
 
-```math
-2 = \frac{a^2}{b^2} \\
-2b^2 = a^2.
-```
+$$2 = \frac{a^2}{b^2}$$
+$$2b^2 = a^2.$$
 
 So $a^2$ is even, and we can conclude $a$ is even, and it can be written
 as $a = 2k$ for some integer $k$. Squaring both sides yields $a^2 = 4k^2$. We
