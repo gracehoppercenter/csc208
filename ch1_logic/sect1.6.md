@@ -68,7 +68,6 @@ Is the following a valid deduction rule? Explain.
 \begin{array}{c}
 P \rightarrow Q \\
 P \rightarrow R \\
-\hline
 \therefore P \rightarrow (Q \land R).
 \end{array}
 ```
@@ -86,33 +85,34 @@ below.
 
 If the power goes off, then the food will spoil.
 
-> Let P: The power goes off, and S: The food spoils. This gives us
-> $P \rightarrow S$ as a sybolic representation of the statement.
-> ```math
-> \text{Negation: } \lnot (P \rightarrow S) \iff \lnot (\lnot P \lor S) \iff
-> P \land \lnot S. \\
-> \text{Converse: } S \rightarrow P \\
-> \text{Contrapositive: } \lnot P \rightarrow \lnot S \\
-> ```
-> Since it was negation that gave us the most challenge on the last test,
-> it would do us well to train our intuition by focusing on it here.
-> Translating the symbolic negation back into English gives us:
-> "The power goes off and the food does not spoil."  Think about it until
-> you can convince yourself that this is indeed the negation of the assertion
-> that if the power goes off the food will spoil.
+Let P: The power goes off, and S: The food spoils. This gives us
+$P \rightarrow S$ as a sybolic representation of the statement.
+
+```math
+\text{Negation: } \lnot (P \rightarrow S) \iff \lnot (\lnot P \lor S) \iff
+P \land \lnot S. \\
+\text{Converse: } S \rightarrow P \\
+\text{Contrapositive: } \lnot P \rightarrow \lnot S \\
+```
+Since it was negation that gave us the most challenge on the last test,
+it would do us well to train our intuition by focusing on it here.
+Translating the symbolic negation back into English gives us:
+"The power goes off and the food does not spoil."  Think about it until
+you can convince yourself that this is indeed the negation of the assertion
+that if the power goes off the food will spoil.
 
 ### Part (b)
 
 If the door is closed, then the light is off.
 
-> Let D: The door is closed, and L: The light is off. This gives us
-> $D \rightarrow L$ as a sybolic representation of the statement.
-> ```math
-> \text{Negation: } \lnot (D \rightarrow L) \iff \lnot (\lnot D \lor L) \iff
-> D \land \lnot L. \\
-> \text{Converse: } L \rightarrow D \\
-> \text{Contrapositive: } \lnot L \rightarrow \lnot D \\
-> ```
+Let D: The door is closed, and L: The light is off. This gives us
+$D \rightarrow L$ as a sybolic representation of the statement.
+```math
+\text{Negation: } \lnot (D \rightarrow L) \iff \lnot (\lnot D \lor L) \iff
+D \land \lnot L. \\
+\text{Converse: } L \rightarrow D \\
+\text{Contrapositive: } \lnot L \rightarrow \lnot D \\
+```
 
 ### Part (c)
 

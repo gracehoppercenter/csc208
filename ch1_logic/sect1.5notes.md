@@ -23,3 +23,9 @@ then $A \subseteq C$.
 A function $f : A \rightarrow B$ is **injective** (or **one-to-one**) provided
 every element in $B$ is the image of at most one element in $A$. In other words,
 no element in $B$ is the *output* of more than one *input* from $A$.
+
+
+## A Larger Set Cannot Be Injective on a Smaller Set
+
+Suppose $f : A \rightarrow B$ is a function with $A$ and $B$ both finite sets.
+If $\vert A \vert > \vert B \vert$, the $f$ is *not* injective.
