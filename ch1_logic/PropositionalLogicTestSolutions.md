@@ -28,7 +28,7 @@
    ```math
    \begin{array}{c}
    P \rightarrow Q \\
-   \noindent\uline{P \rightarrow R} \hfill \\
+   P \rightarrow R \\
    \therefore P \rightarrow (Q \land R).
    \end{array}
    ```
@@ -61,7 +61,7 @@
 > (3) & P & \text{conditional proof assumption} \\
 > (4) & Q & \text{(1), (3), modus ponens} \\
 > (5) & R & \text{(2), (3), modus ponens} \\
-> \noindent\uline{(6) & Q \land R & \text{(4), (5), adjunction}} \hfill \\
+> (6) & Q \land R & \text{(4), (5), adjunction} \\
 > \therefore & P \rightarrow (Q \land R) & \text{(3) and (6)}
 > \end{array}
 > ``` 
