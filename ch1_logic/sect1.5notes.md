@@ -42,3 +42,27 @@ is, $f(A)$ is the set of all outputs of the function for inputs in $A$.
 
 Let $f : X \rightarrow Y$ be a function, and let $A$ and $B$ be subsets of $X$.
 If $A \subseteq B$, then $f(A) \subseteq f(B)$.
+
+
+## Relations
+
+A **relation** on a set $A$ is a set of ordered pairs of elements from $A$.
+
+
+### Trasitive Relations
+
+A relation $R$ on a set $A$ is **transitive** provided for all $x, y, z \in A$,
+if $xRy$ and $yRz$, then $xRz$.
+
+
+## Graphs
+
+A **graph** is a set $V$ of **vertices** and a set $E$ of **edges**,
+two-element subsets of the vertices.
+
+
+### Degree of a Graph
+
+Let $v$ be a vertex in a graph $G$. The **degree** of $v$, written $d(v)$, is
+the number of edges that contain $v$, i.e. the number of edges *incident* to
+$v$.
