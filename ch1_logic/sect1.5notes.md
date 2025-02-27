@@ -31,10 +31,14 @@ Suppose $f : A \rightarrow B$ is a function with $A$ and $B$ both finite sets.
 If $\vert A \vert > \vert B \vert$, the $f$ is *not* injective.
 
 
-##  Definition: Image of a Set Under a Function
+## Definition: Image of a Set Under a Function
 
 Given a function $f : X \rightarrow Y$ and a set $A \subseteq X$, we define the
 **image of A under f** to be the set $f(AP = \{f(a) \in Y : a \in A\}$. That
 is, $f(A)$ is the set of all outputs of the function for inputs in $A$.
 
 
+## The Image of a Subset is a Subset of the Image of Its Superset
+
+Let $f : X \rightarrow Y$ be a function, and let $A$ and $B$ be subsets of $X$.
+If $A \subseteq B$, then $f(A) \subseteq f(B)$.
