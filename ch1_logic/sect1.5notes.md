@@ -34,7 +34,7 @@ If $\vert A \vert > \vert B \vert$, the $f$ is *not* injective.
 ## Definition: Image of a Set Under a Function
 
 Given a function $f : X \rightarrow Y$ and a set $A \subseteq X$, we define the
-**image of A under f** to be the set $f(AP = \{f(a) \in Y : a \in A\}$. That
+**image of A under f** to be the set $f(A) = \{f(a) \in Y : a \in A\}$. That
 is, $f(A)$ is the set of all outputs of the function for inputs in $A$.
 
 
