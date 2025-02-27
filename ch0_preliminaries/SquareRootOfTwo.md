@@ -23,9 +23,10 @@ is to prove the *contrapositive*, which as we know is logically equivalent.
 
 We need to prove that if $a$ is not even (meaning it's odd), then
 $a^2$ is odd.  We assume $a$ is odd. That means that
-$\exists k \in \N : 2 k + 1 = a$. Squaring this gives us $(2k + 1)^2$, which
-equals $4k^2 + 4k + 1$. We can factor 2 out of the first two term, giving us
-$2(2k^2 + 2k) + 1$.  Since the set of integers is closed under both
+$\exists k \in \mathbb{N} : 2 k + 1 = a$. Squaring this gives us
+$(2k + 1)^2$, which equals $4k^2 + 4k + 1$. We can factor 2 out of the first
+two term, giving us $2(2k^2 + 2k) + 1$.  Since the set of integers is closed
+under both
 [multiplication](https://proofwiki.org/wiki/Integer_Multiplication_is_Closed)
 and
 [addition](https://proofwiki.org/wiki/Integer_Addition_is_Closed),
