@@ -18,7 +18,7 @@ For any sets $A$, $B$, and $C$, if $A \subseteq B$ and $B \subseteq C$,
 then $A \subseteq C$.
 
 
-## Injective (One-to-One) Functions
+## Definition: Injective (One-to-One) Functions
 
 A function $f : A \rightarrow B$ is **injective** (or **one-to-one**) provided
 every element in $B$ is the image of at most one element in $A$. In other words,
@@ -29,3 +29,12 @@ no element in $B$ is the *output* of more than one *input* from $A$.
 
 Suppose $f : A \rightarrow B$ is a function with $A$ and $B$ both finite sets.
 If $\vert A \vert > \vert B \vert$, the $f$ is *not* injective.
+
+
+##  Definition: Image of a Set Under a Function
+
+Given a function $f : X \rightarrow Y$ and a set $A \subseteq X$, we define the
+**image of A under f** to be the set $f(AP = \{f(a) \in Y : a \in A\}$. That
+is, $f(A)$ is the set of all outputs of the function for inputs in $A$.
+
+
