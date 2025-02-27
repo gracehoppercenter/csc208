@@ -14,8 +14,9 @@ Before getting to that, we will need to establish the following theorem.
 *Proof:*
 
 Using our notation for sets an **even number** is
-$\{x \in \N : \exists n \in \N (x = 2n)\}$, and an **odd number** is
-$\{x \in \N : \exists n \in \N (x = 2n + 1)\}$.
+$\{x \in \mathbb{N} : \exists n \in \mathbb{N} (x = 2n)\}$, and an
+**odd number** is
+$\{x \in \mathbb{N} : \exists n \in \mathbb{N} (x = 2n + 1)\}$.
 
 We want to prove that if $a^2$ is even, then $a$ is even.  The best approach
 is to prove the *contrapositive*, which as we know is logically equivalent.
@@ -46,7 +47,7 @@ $2q^2$ = $p^2$. By the
 since $2q^2$ and $p^2$ are equal, they have the same prime factors. Since 2 is
 one of these factors, $p^2$ is even, and by the theorem we proved at the
 start of this discussion, $p$ must therefore also be even. That means $p$ can
-be written as $2k$ for some $k \in \N$.
+be written as $2k$ for some $k \in \mathbb{N}$.
 
 Substituting $2k$ for $p$ in $2q^2$ = $p^2$ we get $2q^2$ = $(2k)^2$ which
 gives us $2q^2$ = $4k^2$. Dividing both sides by 2, we get

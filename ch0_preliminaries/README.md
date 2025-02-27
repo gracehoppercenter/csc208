@@ -6,7 +6,7 @@
 
 1. The systematic study of how much / many or which one(s).
 
-2. A game, played my mathematians.
+2. A game, played by mathematians.
 
 This chapter introduces concepts and vocabulary for the study of
 [logic](https://en.wikipedia.org/wiki/Logic), which may be new to you.
