@@ -26,11 +26,11 @@ Since discrete math is much about functions defined on the set of natural
 numbers, this question is not trivial for us.  We will sometimes want to
 include it, and sometimes not, so let's agree on the following notation:
 ```math
-\N = \{1, 2, 3, 4, 5, ...\}
+\mathbb{N} = \{1, 2, 3, 4, 5, ...\}
 ```
 and *does not* contain $0$, while
 ```math
-\N_0 = \{0, 1, 2, 3, 4, 5, ...\}
+\mathbb{N}_0 = \{0, 1, 2, 3, 4, 5, ...\}
 ```
 does.
 
