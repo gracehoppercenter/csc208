@@ -88,9 +88,11 @@ G<sub>2</sub>
 
 Consider the following two graphs:
 
-$$G_1: V_1 = \{a, b, c, d, e, f, g\},
-E_1 = \{\{a, b\}, \{a, d\}, \{b, c\}, \{b, d\}, \{b, e\}, \{b, f\}, \{c, g\},
-\{d, e\}, \{e, f\}, \{f, g\}\}.$$
+$$
+G_1: V_1 = \{ a, b, c, d, e, f, g \},
+E_1 = \{ \{ a, b \}, \{ a, d \}, \{ b, c \}, \{b, d \}, \{ b, e \}, \{ b, f \},
+\{ c, g \}, \{ d, e \}, \{ e, f \}, \{ f, g \} \}.
+$$
 
 $$G_2: V_2 = \{v_1, v_2, v_3, v_4, v_5, v_6, v_7\},
 E_2 = \{\{v_1, v_4\}, \{v_1, v_5\}, \{v_1, v_7\}, \{v_2, v_3\}, \{v_2, v_6\},
@@ -101,13 +103,14 @@ E_2 = \{\{v_1, v_4\}, \{v_1, v_5\}, \{v_1, v_7\}, \{v_2, v_3\}, \{v_2, v_6\},
 
 Let $f: G_1 \rightarrow G_2$ be a function that takes the vertices of Graph 1
 to vertices of Graph 2. The function is given by the following table:
+
 ```math
 \begin{array}{l|lllllll}
 x & a & b & c & d & e & f & g \\
-\hline
 f(x) & v_4 & v_5 & v_1 & v_6 & v_2 & v_3 & v_7 \\
 \end{array}
 ```
+
 Does $f$ define an isomorphism between Graph 1 and Graph 2?
 
 > We are asking here if $f$ is the required bijection
