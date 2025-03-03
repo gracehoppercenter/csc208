@@ -59,10 +59,10 @@ or explain why you can not.
 Are the two graphs below equal? Are they isomorphic? If they are isomorphic,
 give the isomorphism. If not, explain how you know they are not.
 
-```math
+$$
 G_1: V = \{a, b, c, d, e\}, E = \{\{a, b\}\, \{a, c\}, \{a, e\}, \{b, d\},
          \{b, e\}, \{c, d\}\}.
-```
+$$
 
 <figure>
 <img src="illustrations/ex4.1.4g2.svg" alt="Graph 2">
@@ -74,10 +74,10 @@ G<sub>2</sub>
 > Let's rewrite $G_2$ in set notation, renaming the vertices to avoid
 > confusion:
 >
-> ```math
+> $$ 
 > G_2: V = \{v_c, v_d, v_e, v_a, v_b\}, E = \{\{v_c, v_d\}\, \{v_c, v_a\},
 > \{v_c, v_b\}, \{v_d, v_e\}, \{v_d, v_a\}, \{v_e, v_b\}\}.
-> ```
+> $$ 
 >
 > While $V_{G_1} = V_{G_2}$, $E_{G_1} \neq E_{G_2}$, since $\{a, b\}$ is
 > in one, but not the other, for example, so $G_1$ and $G_2$ are not equal.
@@ -92,14 +92,14 @@ G<sub>2</sub>
 
 Consider the following two graphs:
 
-```math
-G_1: V_1 = \left a, b, c, d, e, f, g \right,
+$$
+G_1: V_1 = \{ a, b, c, d, e, f, g \},
 E_1 = \left \{ a, b \}, \{ a, d \}, \{ b, c \}, \{b, d \},
 \{ b, e \}, \{ b, f \}, \{ c, g \}, \{ d, e \}, \{ e, f \},
 \{ f, g \} \right.
-```
+$$
 
-```math
+$$
 G_2: V_2 = \left v_1, v_2, v_3, v_4, v_5, v_6, v_7 \right,
 E_2 = \left \{v_1, v_4\}, \{v_1, v_5\}, \{v_1, v_7\},
 \{v_2, v_3\}, \{v_2, v_6\}, \{v_3, v_5\}, \{v_3, v_7\},
@@ -111,6 +111,8 @@ E_2 = \left \{v_1, v_4\}, \{v_1, v_5\}, \{v_1, v_7\},
 Let $f: G_1 \rightarrow G_2$ be a function that takes the vertices of Graph 1
 to vertices of Graph 2. The function is given by the following table:
 
+|        |       |       |       |       |       |       |       |
+|--------|-------|-------|-------|-------|-------|-------|-------|
 | $x$    | $a$   | $b$   | $c$   | $d$   | $e$   | $f$   | $g$   |
 | $f(x)$ | $v_4$ | $v_5$ | $v_1$ | $v_6$ | $v_2$ | $v_3$ | $v_7$ |
 
