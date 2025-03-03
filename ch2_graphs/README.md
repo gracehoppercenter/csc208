@@ -11,7 +11,7 @@ problem (in the negative) in 1736 laid the foundation for
 
 ## Section Notes
 
-* [Section 4.1: Definitions](sect4.1notes.md)
+* [Section 2.1: Definitions](sect2.1notes.md)
 * [Section 4.2: Trees](sect4.2notes.md)
 * [Section 4.3: Planar Graphs](section4.3notes)
 * [Section 4.4: Coloring](section4.4notes)
@@ -21,7 +21,7 @@ problem (in the negative) in 1736 laid the foundation for
 
 ## Section Exercises 
 
-* [Section 4.1](sect4.1.md)
+* [Section 2.1](sect2.1.md)
 * [Section 4.2](sect4.2.md)
 * [Section 4.3](sect4.3.md)
 * [Section 4.4](sect4.4.md)
