@@ -66,7 +66,7 @@ the graph is a **complete bipartite graph**, and gets a special name:
 $K_{m, n}$, where $|A| = m$ and $|B| = n$. 
 
 
-## Handshake Lemma (Lemma 4.1.5)
+## Handshake Lemma
 
 In any graph the sum of the sum of the degrees of vertices in the graph is
 always twice the number of edges.
@@ -78,9 +78,19 @@ The **degree sequence** of a graph is a list of the degree of every vertex in
 the graph, usually written in non-increasing order.
 
 
-## Proposition 4.1.8
+## Number of Odd Degree Vertices is Even
 
 In any graph, the number of vertices with odd degree must be even.
+
+
+## Bipartite Graphs
+
+We say a graph is **bipartite** if the vertices can be divided into two sets,
+$A$ and $B$, with no two verticies in $A$ adjacent and no two verticies in $B$
+adjacent. The vertices in $A$ can be adjacent to some or all of the vertices in
+$B$. If each vertex in $A$ is adjacent to all the vertices in $B$, then the
+graph is a **complete bipartite graph**, and gets the special name:
+$K_{m, n}$, where $\lvert A \rvert = m$ and $\lvert B \rvert = n$.
 
 
 ## Named Graphs
